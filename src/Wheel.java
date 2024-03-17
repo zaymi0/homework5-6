@@ -5,7 +5,5 @@ public class Wheel {
     Wheel(int radiusWheel, int widthWheel) {
         this.radiusWheel = radiusWheel;
         this.widthWheel = widthWheel;
-
     }
-
 }

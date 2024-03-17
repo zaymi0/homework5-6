@@ -22,7 +22,6 @@ public class Car {
         this.wheels = new Wheel[numberOfWheels];
         for (int i = 0; i < numberOfWheels; i++) {
             wheels[i] = wheel;
-
         }
     }
 
