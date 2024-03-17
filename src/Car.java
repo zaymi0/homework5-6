@@ -29,5 +29,6 @@ public class Car {
         return String.format("Марка: %S\nМодель: %S\nГод выпуска: %d\nТип кузова: %S\nКоличество колес: %d" +
                         "\nРадиус колеса: %d\nШирина колеса: %d", carBrand, carModel, carYear, carBody, wheels.length,
                 wheels[0].radiusWheel, wheels[0].widthWheel);
+
     }
 }
