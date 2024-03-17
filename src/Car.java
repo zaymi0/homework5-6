@@ -1,12 +1,12 @@
 public class Car {
-    String carBrand; //= "Honda";
-    String carModel; //= "Civic";
-    String carBody; //= "Coupe";
-    int carYear; //= 2019;
-    Wheel[] wheels;
+    protected String carBrand; //= "Honda";
+    protected String carModel; //= "Civic";
+    protected String carBody; //= "Coupe";
+    protected int carYear; //= 2019;
+    protected Wheel[] wheels;
 
 
-    public Car (String carBrand, String carModel, String carBody, int carYear, Wheel[] wheels) {
+     public Car(String carBrand, String carModel, String carBody, int carYear, Wheel[] wheels) {
         this.carBrand = carBrand;
         this.carModel = carModel;
         this.carBody = carBody;
@@ -14,7 +14,7 @@ public class Car {
         this.wheels = wheels;
     }
 
-    public Car (String carBrand, String carModel, String carBody, int carYear, Wheel wheel, int numberOfWheels ) {
+    public Car(String carBrand, String carModel, String carBody, int carYear, Wheel wheel, int numberOfWheels ) {
         this.carBrand = carBrand;
         this.carModel = carModel;
         this.carBody = carBody;
